@@ -1,0 +1,126 @@
+body {
+    background-image: url(Escudo/fondo.jpg);
+}
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab {
+    display: flex;
+}
+
+.hueco {
+    width: 287px;
+    background-color: transparent;
+}
+.celda1, .celda2, .celda3  {
+    padding-top: 5px;
+    position: relative;
+    height: 25px;
+    background-color: #a7badb;
+}
+
+.grupo2 {
+    background-color: #ddd;
+    border-right: 1px solid #ddd;
+}
+.Equipo {
+    height: 30px;
+    text-align: center;
+    padding: 7px;
+    font-family: allerregular;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.destacado1, .destacado6, .destacado11 {
+    height: 30px;
+    text-align: center;
+    padding: 7px;
+    font-family: allerregular;
+    font-size: 12px;
+    line-height: 12px;
+    border-left: 1px solid #ccc;
+}
+.destacado2, .destacado3, .destacado4, .destacado7, .destacado8, .destacado9, .destacado12, .destacado13, .destacado14 {
+    height: 30px;
+    text-align: center;
+    padding: 7px;
+    font-family: allerregular;
+    font-size: 12px;
+    line-height: 12px;
+}
+.destacado5, .destacado10 {
+    height: 30px;
+    text-align: center;
+    padding: 7px;
+    font-family: allerregular;
+    font-size: 12px;
+    line-height: 12px;
+    border-right: #ccc;
+}
+.destacado15 {
+    height: 30px;
+    text-align: center;
+    padding: 7px;
+    font-family: allerregular;
+    font-size: 12px;
+    line-height: 12px;
+    border-right: #ccc;
+}
+
+.equ1 {
+    width: 287px;
+    background-color: #fdf873;
+    border: 1px solid #cdc958;
+}
+
+.equ2 {
+    background-color: #5ff762;
+    width: 287px;
+    border: 1px solid #48c04a;
+}
+
+.equ {
+    background-color: #9e64fb;
+    width: 287px;
+    border: 1px solid #804fce;
+}
+.equ, .posición {
+    float: left;
+    position: relative;
+    text-align: center;
+    font-family: roboto-regular, sans-serif;
+    font-size: 22px;
+    line-height: 22px;
+}
+.equ, .escudo {
+    vertical-align: middle;
+    float: left;
+    vertical-align: middle;
+}
+.equ,.nombre_del_equipo {
+    text-align: left;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: allerregular;
+    font-size: 20px;
+    line-height: 24px;
+}
+.pts {
+    border-bottom: 1px solid #8b8b8b;
+    background-color: #c8c5c5;
+}
+.bor {
+    border-bottom: 1px solid #ccc;
+    background-color: white;
+}
+.bor1 {
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: white;
+}
